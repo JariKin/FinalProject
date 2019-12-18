@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity implements eventAdapter.OnIt
     public static final String EXTRA_NAME = "name";
     public static final String EXTRA_LOCATION = "location_extra_info";
     public static final String EXTRA_SDESCRIPTION = "short_description";
-
-
+    
     private RecyclerView mRecyclerView;
     private eventAdapter mEventAdapter;
     private ArrayList<eventItem> mEventList;
